@@ -6,17 +6,15 @@ import IntroBlock from "../components/home/introBlock"
 
 const IndexPage = () => {
 
-  let hide = false;
-  function setHide (){ hide = !hide; console.log('cc')}
-  const dom = (
+  const indexPageElement = (
     <Layout>
 
-      <button onClick={setHide}> hide </button>
-      
+      <IntroBlock></IntroBlock>
+
     </Layout>
     )
 
-  return dom;
+  return indexPageElement;
 }
 
 /**
