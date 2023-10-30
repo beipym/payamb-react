@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
+    className="absolute w-screen"
     style={{
       margin: `0 auto`,
       padding: `var(--space-4) var(--size-gutter)`,
@@ -11,7 +12,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <Link
+    {/* <Link
       to="/"
       style={{
         fontSize: `var(--font-sm)`,
@@ -19,7 +20,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {siteTitle}
-    </Link>
+    </Link> */}
     
     {/* <img
       alt="Gatsby logo"

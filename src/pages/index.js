@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import IntroBlock from "../components/home/introBlock"
+import AboutMe from "../components/about-me/aboutMe"
 
 
 const IndexPage = () => {
@@ -10,6 +11,7 @@ const IndexPage = () => {
     <Layout>
 
       <IntroBlock></IntroBlock>
+      {/* <AboutMe></AboutMe> */}
 
     </Layout>
     )

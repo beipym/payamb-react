@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
+          // maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
         }}
         >
@@ -47,13 +47,11 @@ const Layout = ({ children }) => {
               fontSize: `var(--font-sm)`,
             }}
             >
-            © {new Date().getFullYear()} &middot; Built with
+            © {new Date().getFullYear()} &middot; Had a lot of fun building this site with
             {` `}
             <a href="https://www.gatsbyjs.com">Gatsby</a> 
             <br></br>
-            i can make websites like this :)
-            <br></br>
-            lets chat about your project idea !
+            theres a lot to do here, but have this for now :)
           </footer>
         </div>
       </div>
