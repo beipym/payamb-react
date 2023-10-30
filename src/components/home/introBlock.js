@@ -17,8 +17,14 @@ const IntroBlock = () => {
         <span className='mt-4 text-4xl'> My Name is Payam </span>
         
         <span className='mt-4 text-4xl'> 
-          Im a Software Engineer ,and I mostly do 
-          <span className='underline hover:cursor-pointer'>FrontEnd</span> 
+          Im a Software Engineer ,and I mostly do
+          {` `}
+          <a href='https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html' target='_blank' className='text-black'>
+            <span className='underline hover:cursor-pointer'>
+              FrontEnd
+            </span> 
+          </a>
+          {` `}
           Development . 
         </span>
 
